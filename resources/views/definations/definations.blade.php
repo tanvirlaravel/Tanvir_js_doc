@@ -12,6 +12,7 @@
         <div class="tab-content" id="myTabContent">
  
             @include('definations._d')
+            @include('definations._e')
             @include('definations._g')
 
 

@@ -18,6 +18,19 @@
             <a class="dropdown-item" href="{{ route('WhatisJavaScript') }}">What is JavaScript</a>           
           </div>
         </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Introducing JavaScript objects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ route('Objects.intro') }}">Introducing JavaScript objects</a>           
+            <a class="dropdown-item" href="{{ route('Objects.object.basics') }}">JavaScript object basics</a>           
+            <a class="dropdown-item" href="{{ route('Objects.Object.oriented') }}">Object-oriented JavaScript for beginners</a>           
+            <a class="dropdown-item" href="{{ route('Objects.WorkingJSON') }}">Working with JSON</a>           
+            <a class="dropdown-item" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_building_practice" target="_blank">Object building practice</a>           
+          </div>
+        </li>
       
        
 

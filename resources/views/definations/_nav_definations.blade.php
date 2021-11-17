@@ -4,6 +4,10 @@
   </li>
 
   <li class="nav-item" role="presentation">
+    <a class="nav-link" id="home-tab" data-toggle="tab" href="#e" role="tab" aria-controls="home" aria-selected="true">E</a>
+  </li>
+
+  <li class="nav-item" role="presentation">
     <a class="nav-link" id="home-tab" data-toggle="tab" href="#g" role="tab" aria-controls="home" aria-selected="true">G</a>
   </li>
 

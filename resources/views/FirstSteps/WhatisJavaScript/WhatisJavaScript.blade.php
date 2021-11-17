@@ -2,43 +2,38 @@
 
 @section('content')
 
-<h2 class="my-4 text-info text-center">What is JavaScript?</h2>
+<h1 class="my-4 text-info text-center">What is JavaScript?</h1>
 
 <div class="row">
     <div class="col-4">
-       <ul class="list-group position-fixed">
-            <li class="list-group-item"><a href="#A-high-level-definition">A high-level definition</a></li>
-            <li class="list-group-item"><a href="#So-what-can-it-really-do">So what can it really do</a></li>
-            <li class="list-group-item"><a href="#api">API</a></li>
-            <li class="list-group-item"><a href="#What-is-JavaScript-doing-on-your-page">What is JavaScript doing on your page</a></li>
-            <li class="list-group-item"><a href="#Browser-security">Browser security</a></li>
-            <li class="list-group-item"><a href="#JavaScript-running-order">JavaScript running order</a></li>
-          
-        </ul>
+       <ul class="list-group position-fixed" id="sidebar_menu">    
+       </ul>
     </div>
     <div class="col-8">
     <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript" target="_blank">MDN Link</a>
 
-            <hr>
-           <h2 id="A-high-level-definition">A high-level definition</h2>
-           <hr>
+           
+           <h2 class="text-success">A high-level definition</h2>
+         
            <p>every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved</p>
 
            <p>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.</p>          
            
            <hr>
-           <h2 id="So-what-can-it-really-do">So what can it really do</h2>
-           <hr>
+
+
+           <h2 class="text-success">So what can it really do</h2>
+          
            <ul>
                <li>Store useful values inside variables. </li>
                <li>Operations on pieces of text (known as "strings" in programming). </li>
                <li>Running code in response to certain events occurring on a web page. </li>
                <li>And much more!</li>
            </ul>
+           <hr>
 
-           <hr>
-           <h2 id="api">API</h2>
-           <hr>
+           <h2 class="text-success">API</h2>
+           
            <p>What is even more exciting however is the functionality built on top of the client-side JavaScript language.
             </p>
             <p>So-called Application Programming Interfaces (APIs) provide you with extra superpowers to use in your JavaScript code.</p>
@@ -68,27 +63,26 @@ They generally fall into two categories.</p>
             </li>
            
         </ul>
+        <hr>
 
 
-        <hr>
-        <h2 id="What-is-JavaScript-doing-on-your-page">What is JavaScript doing on your page</h2>
-        <hr>
+       <h2 class="text-success">What is JavaScript doing on your page</h2>
+       
         <p>When you load a web page in your browser, you are running your code (the HTML, CSS, and JavaScript) inside an execution environment (the browser tab). This is like a factory that takes in raw materials (the code) and outputs a product (the web page).</p>
         <img src="{{ asset("/img/firstSteps/execution.png") }}" height="200" alt="">
         <p>A very common use of JavaScript is to dynamically modify HTML and CSS to update a user interface, via the Document Object Model API </p>
-
-
         <hr>
-        <h2 id="Browser-security">Browser security</h2>
-        <hr>
+
+        <h2 class="text-success">Browser security</h2>       
         <p>Each browser tab has its own separate bucket for running code in (these buckets are called "execution environments" in technical terms) — this means that in most cases the code in each tab is run completely separately, and the code in one tab cannot directly affect the code in another tab — or on another website. This is a good security measure — if this were not the case, then pirates could start writing code to steal information from other websites, and other such bad things.</p>
         <p>There are ways to send code and data between different websites/tabs in a safe manner</p>
-        
-        <hr>
-        <h2 id="JavaScript-running-order">JavaScript running order</h2>
-        <hr>
+                <hr>
+
+
+        <h2 class="text-success">JavaScript running order</h2>       
         <p>When the browser encounters a block of JavaScript, it generally runs it in order, from top to bottom.</p>
 
+        <p class="my-5">.</p>
       
     </div>
 </div>
