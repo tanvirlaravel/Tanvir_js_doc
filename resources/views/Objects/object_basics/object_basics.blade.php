@@ -7,8 +7,8 @@
 
 <div class="row">
     <div class="col-4">
-       <ul class="list-group position-fixed" id="sidebar_menu">         
-        </ul>
+    <ul class="list-group position-fixed" id="sidebar_menu">         
+    </ul>
     </div>
     <div class="col-8"> 
           

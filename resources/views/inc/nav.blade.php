@@ -35,8 +35,17 @@
        
 
 
-        <li class="nav-item">
-          <a class="nav-link" href="{{ route('definations') }}">defination</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Defination
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ route('definations.a') }}">A</a>     
+            <a class="dropdown-item" href="{{ route('definations.e') }}">E</a>     
+            <a class="dropdown-item" href="{{ route('definations.m') }}">M</a>     
+            <a class="dropdown-item" href="{{ route('definations.n') }}">N</a>     
+
+          </div>
         </li>
         
       </ul>

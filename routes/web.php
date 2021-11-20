@@ -3,7 +3,7 @@
 
 
 Route::view('/', 'welcome')->name('home');
-Route::view('/definations', 'definations.definations')->name('definations');
+
 
 // First Steps
 Route::view('/what_is_js', 'FirstSteps.WhatisJavaScript.WhatisJavaScript')->name('WhatisJavaScript');
@@ -13,3 +13,11 @@ Route::view('/what_is_object', 'Objects.intro')->name('Objects.intro');
 Route::view('/object-basics', 'Objects.object_basics.object_basics')->name('Objects.object.basics');
 Route::view('/Object-oriented', 'Objects.Object_oriented.Object-oriented')->name('Objects.Object.oriented');
 Route::view('/object-Working-JSON', 'Objects.WorkingJSON.WorkingJSON')->name('Objects.WorkingJSON');
+
+
+// Defination 
+Route::view('/a', 'definations.a')->name('definations.a');
+Route::view('/e', 'definations.e')->name('definations.e');
+Route::view('/g', 'definations.a')->name('definations.g');
+Route::view('/m', 'definations.m')->name('definations.m');
+Route::view('/n', 'definations.n')->name('definations.n');

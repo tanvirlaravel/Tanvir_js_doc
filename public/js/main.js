@@ -1,5 +1,4 @@
-
-    const h2Collection = document.querySelectorAll("h2");
+const h2Collection = document.querySelectorAll("h2");
     const sidebarMenu = document.querySelector("#sidebar_menu")
 
     console.log(sidebarMenu)
@@ -24,7 +23,3 @@
         const li = `<li class="list-group-item"><a href="#${id}">${linkText}</a></li>`
         sidebarMenu.innerHTML  += li 
     })
-
-
-    
-  
