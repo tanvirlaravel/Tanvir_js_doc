@@ -15,6 +15,12 @@ Route::view('/Object-oriented', 'Objects.Object_oriented.Object-oriented')->name
 Route::view('/object-Working-JSON', 'Objects.WorkingJSON.WorkingJSON')->name('Objects.WorkingJSON');
 
 
+// https://edabit.com/
+Route::view('/edabit/Arrow-Function', 'edabit.Arrow_Function')->name('edabit.Arrow_Function');
+Route::view('/edabit/Function', 'edabit.Function')->name('edabit.Function');
+Route::view('/edabit/Introduction-JavaScript', 'edabit.Introduction_JavaScript')->name('edabit.Introduction_JavaScript');
+
+
 // Defination 
 Route::view('/a', 'definations.a')->name('definations.a');
 Route::view('/e', 'definations.e')->name('definations.e');

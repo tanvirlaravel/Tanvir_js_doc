@@ -47,6 +47,20 @@
 
           </div>
         </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Edabit
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ route('edabit.Arrow_Function') }}">Arrow Function</a>   
+            <a class="dropdown-item" href="{{ route('edabit.Function') }}">Function</a>   
+            <a class="dropdown-item" href="{{ route('edabit.Introduction_JavaScript') }}">Introduction to JavaScript</a>   
+
+          </div>
+        </li>
+
+       
         
       </ul>
       
