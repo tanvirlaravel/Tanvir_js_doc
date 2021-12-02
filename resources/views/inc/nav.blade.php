@@ -16,6 +16,13 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="{{ route('WhatisJavaScript') }}">What is JavaScript</a>           
+            <a class="dropdown-item" href="{{ route('A-first-splash-into-JavaScript') }}">A first splash into JavaScript</a>           
+            <a class="dropdown-item" href="{{ route('What-went-wrong') }}">What went wrong? Troubleshooting JavaScript</a>           
+            <a class="dropdown-item" href="{{ route('Storing-information—Variables') }}">Storing the information you need — Variables</a>           
+            <a class="dropdown-item" href="{{ route('Basic-math') }}">Basic math in JavaScript — numbers and operators</a>           
+            <a class="dropdown-item" href="{{ route('strings') }}">Handling text — strings in JavaScript</a>           
+            <a class="dropdown-item" href="{{ route('string-methods') }}">Useful string methods</a>           
+            <a class="dropdown-item" href="{{ route('Arrays') }}">Arrays</a>           
           </div>
         </li>
 
@@ -31,9 +38,19 @@
             <a class="dropdown-item" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_building_practice" target="_blank">Object building practice</a>           
           </div>
         </li>
-      
-       
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Asynchronous JavaScript
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ route('Asynchronous.General-asynchronous-programming-concepts') }}">General asynchronous programming concepts</a>           
+            <a class="dropdown-item" href="{{ route('Asynchronous.Introducing-asynchronous-JavaScript') }}">Introducing asynchronous JavaScript</a>           
+          </div>
+        </li>
 
+       
+        
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

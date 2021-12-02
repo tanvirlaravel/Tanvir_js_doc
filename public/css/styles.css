@@ -10,8 +10,8 @@ hr {
     border: 1px solid #ffffff;
 }
 #sidebar_menu li{
-    background-color: #ffffff;
-    border-bottom: 1px solid #e9f1f1;
+    background-color: #f9f8f8;
+    border-bottom: 1px solid #d5d5d5;   
 }
 
 ul#sidebar_menu li:last-child  {
